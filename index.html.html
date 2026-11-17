@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bước Đầu — không gian quản lý hành trình tìm việc dành cho sinh viên và người mới đi làm." />
+  <meta name="theme-color" content="#f5f6f2" />
+  <title>Bước Đầu — Career Desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{--bg:#f5f6f2;--paper:#fff;--ink:#202a27;--muted:#7c8781;--line:#e8ebe5;--green:#174d40;--green2:#286653;--lime:#d8f078;--soft:#f0f3ed;--shadow:0 12px 35px rgba(29,48,40,.055)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;font-size:14px}.app-shell{min-height:100vh;display:flex}.sidebar{width:250px;flex:0 0 250px;background:#fbfcf9;border-right:1px solid var(--line);padding:29px 19px 20px;display:flex;flex-direction:column;position:fixed;inset:0 auto 0 0;z-index:20}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);padding:0 8px;margin-bottom:55px}.brand-mark{height:34px;width:34px;background:var(--green);border-radius:11px;display:flex;align-items:flex-end;justify-content:center;gap:3px;padding:9px}.brand-mark span{width:4px;border-radius:4px;background:var(--lime)}.brand-mark span:nth-child(1){height:9px}.brand-mark span:nth-child(2){height:16px}.brand-mark span:nth-child(3){height:12px}.brand-copy{display:grid;gap:1px}.brand-copy strong{font:800 13px Manrope,sans-serif;letter-spacing:1.8px}.brand-copy small{font-size:8px;letter-spacing:2.3px;color:#8a958e;font-weight:700}.sidebar-label,.eyebrow{font-size:9px;font-weight:800;letter-spacing:1.65px;color:#939d96}.sidebar-label{padding:0 12px;margin-bottom:13px}.side-nav{display:grid;gap:5px}.nav-link{appearance:none;border:0;background:transparent;color:#718079;text-align:left;display:flex;align-items:center;gap:13px;padding:12px 13px;border-radius:10px;font:600 12px "DM Sans",sans-serif;cursor:pointer;transition:.2s}.nav-link:hover{background:#f1f4ef;color:var(--green)}.nav-link.active{background:#eaf0e8;color:var(--green);font-weight:700}.nav-icon{font-size:19px;width:18px;text-align:center;line-height:1}.nav-count{margin-left:auto;background:#fff;border:1px solid #e4e9e1;padding:2px 7px;border-radius:20px;font-size:10px}.sidebar-bottom{margin-top:auto}.mini-card{background:#eef2e8;border-radius:13px;padding:16px;margin:0 3px 19px}.mini-card-icon{height:28px;width:28px;border-radius:9px;background:var(--lime);color:var(--green);display:grid;place-items:center;font-size:16px;margin-bottom:13px}.mini-card strong{font:700 13px Manrope,sans-serif;line-height:1.4;display:block;max-width:150px}.mini-card p{font-size:10px;line-height:1.6;color:#748078;margin:7px 0 0}.profile-row{border-top:1px solid var(--line);padding:17px 5px 0;display:flex;align-items:center;gap:9px}.avatar{height:31px;width:31px;border-radius:50%;display:grid;place-items:center;background:#dce9d6;color:var(--green);font-size:10px;font-weight:800}.profile-row div:nth-child(2){display:grid;gap:3px}.profile-row strong{font-size:10px}.profile-row small{font-size:9px;color:#929c95}.profile-dots{margin-left:auto;color:#a1aaa3;letter-spacing:2px}.main-content{margin-left:250px;width:calc(100% - 250px);max-width:1600px;padding:0 48px 23px}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);margin-bottom:40px}.breadcrumb{display:flex;align-items:center;gap:11px;color:#929c95;font-size:11px}.breadcrumb b{font-weight:400;color:#c1c8c1}.breadcrumb strong{color:#46544c;font-weight:700}.top-actions{display:flex;align-items:center;gap:15px}.today-pill{font-size:10px;color:#77847b;background:#fff;border:1px solid var(--line);border-radius:30px;padding:8px 12px}.live-dot,.tiny-dot{display:inline-block;height:6px;width:6px;border-radius:50%;background:#78a780;margin-right:6px}.help-button{width:27px;height:27px;border-radius:50%;border:1px solid #dce2db;background:transparent;color:#718077;font-weight:700;cursor:pointer}.mobile-menu{display:none}.view{display:none;animation:fade .3s ease}.view.active{display:block}@keyframes fade{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:none}}.hero-row{display:flex;align-items:center;justify-content:space-between;min-height:240px;margin-bottom:30px}.eyebrow{display:flex;align-items:center;gap:8px}.eyebrow-line{width:20px;height:1px;background:#a5b39f}.hero-row h1,.page-heading h1{font:600 clamp(34px,4vw,48px)/1.14 Manrope,sans-serif;letter-spacing:-2px;margin:17px 0 13px;color:#25332d}.hero-row h1 em,.page-heading h1 em{font-style:normal;color:#53816c}.hero-sub,.page-heading>div>p{max-width:540px;color:#879189;line-height:1.75;font-size:12px;margin:0}.hero-art{width:300px;height:210px;position:relative;overflow:hidden;background:#e9eee4;border-radius:20px;margin-right:9px}.sun{position:absolute;width:90px;height:90px;border-radius:50%;background:#d8ef8a;top:30px;right:56px}.hill{position:absolute;border-radius:50% 50% 0 0;transform:rotate(-9deg)}.hill-back{width:330px;height:130px;bottom:-77px;left:-35px;background:#b7cdb6}.hill-front{width:300px;height:110px;bottom:-75px;right:-54px;background:#5d8c71;transform:rotate(9deg)}.orbit{position:absolute;border:1px solid rgba(76,116,87,.25);border-radius:50%;transform:rotate(-25deg)}.orbit-one{width:260px;height:100px;top:49px;left:-13px}.orbit-two{width:220px;height:78px;top:62px;left:25px}.art-star{position:absolute;color:#6f9476}.star-one{top:27px;left:37px;font-size:19px}.star-two{top:92px;right:31px;font-size:13px}.art-caption{position:absolute;bottom:20px;left:24px;font:800 10px/1.45 Manrope,sans-serif;letter-spacing:2px;color:#315e49}.art-caption b{color:#fff}.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:19px}.stat-card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:18px 19px 16px;min-height:136px;box-shadow:0 3px 14px rgba(29,48,40,.018)}.stat-dark{background:#194d41;color:white;border-color:#194d41}.stat-top{display:flex;justify-content:space-between;align-items:center;color:#87928a;font-size:10px}.stat-dark .stat-top{color:#c0d0c6}.stat-symbol{color:var(--lime);font-size:17px}.stat-symbol.soft{color:#72927d}.stat-card>strong{display:block;font:700 31px Manrope,sans-serif;letter-spacing:-1px;margin:10px 0 1px}.stat-card small{color:#9aa39d;font-size:9px}.stat-dark small{color:#b6c9bf}.stat-line{height:3px;background:#386658;border-radius:5px;margin-top:13px}.stat-line i{display:block;height:3px;background:var(--lime);border-radius:5px}.stat-foot{font-size:9px;color:#a0aaa3;margin-top:14px}.tiny-dot.amber{background:#e5b85b}.tiny-dot.green{background:#76a88a}.content-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:16px;margin-bottom:17px}.panel{background:#fff;border:1px solid var(--line);border-radius:13px;padding:21px 22px;box-shadow:0 3px 14px rgba(29,48,40,.018)}.panel-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.small-eyebrow{font-size:8px;letter-spacing:1.5px;color:#9ba69e}.panel-heading h2{font:700 15px Manrope,sans-serif;margin:6px 0 0;letter-spacing:-.3px}.text-button{border:0;background:transparent;color:#668573;font:700 10px "DM Sans",sans-serif;cursor:pointer}.text-button span{font-size:14px;margin-left:4px}.progress-layout{display:flex;align-items:center;gap:22px;padding:4px 5px 8px}.progress-ring{width:104px;height:104px;flex:0 0 104px;border-radius:50%;background:conic-gradient(#8eaf80 0deg,#e8ede5 0deg);display:grid;place-items:center;position:relative}.progress-ring:before{content:"";position:absolute;inset:8px;border-radius:50%;background:#fff}.progress-ring>div{position:relative;display:grid;text-align:center;gap:3px}.progress-ring strong{font:800 22px Manrope,sans-serif;color:#315d48}.progress-ring small{font-size:7px;letter-spacing:1px;color:#9aa49c}.progress-copy{flex:1}.progress-copy>strong{font:700 12px Manrope,sans-serif}.progress-copy>p{font-size:10px;line-height:1.6;color:#929c95;margin:6px 0 14px}.progress-meta{display:flex;align-items:center;gap:10px;color:#78877c;font-size:9px}.progress-track{height:4px;background:#edf0eb;border-radius:10px;flex:1}.progress-track i{height:4px;width:0;background:#8cae7e;border-radius:10px;display:block;transition:.3s}.sparkle{color:#a3bd92;font-size:20px}.quick-panel{padding-bottom:12px}.quick-panel .panel-heading{margin-bottom:10px}.quick-action{width:100%;display:flex;align-items:center;text-align:left;gap:11px;padding:10px 0;border:0;border-top:1px solid #f0f2ee;background:transparent;cursor:pointer}.quick-action>span:nth-child(2){display:grid;gap:4px;flex:1}.quick-action strong{font-size:10px;color:#3b4a42}.quick-action small{font-size:9px;color:#9aa39d}.quick-action>b{color:#a2ada4;font-weight:400}.quick-icon{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:16px}.lavender{background:#f0ecf8;color:#826ca5}.mint{background:#eaf3ec;color:#5e9271}.peach{background:#fbefe8;color:#bd896c}.recent-panel{padding-bottom:12px}.recent-panel .panel-heading{margin-bottom:10px}.recent-list{min-height:52px}.recent-item{display:flex;align-items:center;gap:12px;padding:11px 3px;border-top:1px solid #f0f2ee}.company-avatar{width:34px;height:34px;background:#edf2ea;color:#55765e;border-radius:10px;display:grid;place-items:center;font:800 11px Manrope,sans-serif}.recent-info{flex:1;display:grid;gap:4px}.recent-info strong{font-size:10px}.recent-info small{font-size:9px;color:#969f98}.status-pill{font-size:8px;padding:5px 8px;border-radius:20px;font-weight:700;white-space:nowrap}.status-saved{background:#f1f0e7;color:#8a8359}.status-applied{background:#eaf1fa;color:#6c88ad}.status-interview{background:#eaf4ec;color:#5c906e}.status-closed{background:#f2eeee;color:#9b8585}.empty-state{min-height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;color:#8e9991}.empty-state.compact{min-height:100px}.empty-state>span{width:36px;height:36px;background:#f1f4ee;border-radius:11px;display:grid;place-items:center;color:#719076;font-size:19px;margin-bottom:10px}.empty-state strong{font:700 12px Manrope,sans-serif;color:#536258}.empty-state p{max-width:270px;font-size:10px;line-height:1.6;margin:6px 0 0}.footnote{font-size:9px;color:#a1aaa2;padding:15px 2px 0}.footnote span{color:#8ba77b;margin-right:7px}.page-heading{display:flex;justify-content:space-between;align-items:flex-end;margin:4px 0 28px}.page-heading h1{margin:14px 0 9px}.primary-button{border:0;background:#1b5143;color:#fff;border-radius:8px;padding:11px 16px;font:700 10px "DM Sans",sans-serif;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:.2s}.primary-button:hover{background:#286b57;transform:translateY(-1px)}.primary-button span{font-size:15px;color:var(--lime)}.filter-bar{display:flex;align-items:center;gap:10px;margin-bottom:13px}.search-box{height:38px;flex:1;max-width:390px;display:flex;align-items:center;gap:9px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:0 12px;color:#8a978d}.search-box span{font-size:19px}.search-box input{border:0;outline:0;font:10px "DM Sans",sans-serif;width:100%;color:var(--ink)}.filter-bar select,.field select{height:38px;padding:0 12px;border:1px solid var(--line);background:#fff;border-radius:8px;color:#66746a;font:10px "DM Sans",sans-serif;outline:0}.result-count{font-size:9px;color:#9aa39d;margin-left:auto}.table-card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.table-head,.application-row{display:grid;grid-template-columns:2.1fr 1fr 1fr 1fr 28px;align-items:center;gap:10px;padding:14px 17px}.table-head{background:#fafbf8;border-bottom:1px solid var(--line);font-size:8px;font-weight:800;letter-spacing:1px;color:#9aa39d}.application-row{min-height:67px;border-bottom:1px solid #f0f2ee;font-size:10px}.application-row:last-child{border-bottom:0}.role-cell{display:flex;align-items:center;gap:10px;min-width:0}.role-cell>div:last-child{min-width:0}.role-cell strong{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px}.role-cell small{display:block;margin-top:4px;color:#9aa39d;font-size:9px}.row-type,.row-date{color:#7f8b82;font-size:9px}.row-menu{border:0;background:transparent;color:#9aa59c;font-size:18px;cursor:pointer}.privacy-note{font-size:9px;color:#9ba59e;margin-top:13px}.privacy-note span{margin-right:7px;color:#7c9b84}.outline-button{margin-top:14px;background:#fff;border:1px solid #dfe6dd;border-radius:7px;padding:9px 13px;color:#52745e;font:700 9px "DM Sans",sans-serif;cursor:pointer}.completion-chip{display:flex;align-items:baseline;gap:5px;background:#edf3e9;padding:9px 13px;border-radius:8px;color:#54755d}.completion-chip strong{font:800 18px Manrope}.completion-chip span{font-size:9px}.prep-layout{display:grid;grid-template-columns:1.55fr 1fr;gap:17px}.checklist-panel{padding-bottom:8px}.check-count{font-size:9px;color:#6e8d75;background:#edf4ea;border-radius:20px;padding:6px 9px}.checklist{display:grid}.check-item{position:relative;display:flex;align-items:center;gap:12px;padding:16px 2px;border-top:1px solid #f0f2ee;cursor:pointer}.check-item input{position:absolute;opacity:0;pointer-events:none}.custom-check{width:18px;height:18px;flex:0 0 18px;border:1px solid #d7dfd6;border-radius:5px;display:grid;place-items:center;transition:.2s}.check-item input:checked+.custom-check{background:#4f8063;border-color:#4f8063}.check-item input:checked+.custom-check:after{content:"✓";font-size:12px;color:#fff}.check-text{display:grid;gap:5px;flex:1}.check-text strong{font-size:10px;font-weight:700}.check-text small{font-size:9px;color:#9aa39d}.check-category{font-size:7px;letter-spacing:1px;color:#9da99f;font-weight:800}.check-item.done .check-text strong{text-decoration:line-through;color:#9ba69e}.tip-panel{background:#eef3e9;border-color:#e7ede2;padding:24px;height:max-content}.tip-icon{width:34px;height:34px;background:#dcebbd;border-radius:10px;display:grid;place-items:center;color:#54774e;font-size:18px;margin-bottom:21px}.tip-panel h2{font:700 20px/1.3 Manrope,sans-serif;letter-spacing:-.6px;margin:12px 0;color:#2c4938;max-width:230px}.tip-panel>p{font-size:10px;color:#7e8e80;line-height:1.8;margin:0}.tip-divider{height:1px;background:#dfe8d8;margin:22px 0 17px}.tip-panel>strong{font-size:10px;color:#456449}.tip-question{font:600 12px/1.6 Manrope,sans-serif!important;color:#48624d!important;margin:8px 0 11px!important}.tip-panel .text-button{padding:0}.safety-mark{height:49px;width:49px;border-radius:15px;background:#e7efe4;color:#65866a;display:grid;place-items:center;font-size:25px}.safety-banner{display:flex;align-items:center;gap:15px;background:#1b5143;color:#fff;padding:19px 22px;border-radius:12px;margin-bottom:17px}.safety-banner-icon{width:34px;height:34px;border-radius:10px;background:#d8ef8a;color:#31533a;display:grid;place-items:center;font:800 18px Manrope}.safety-banner strong{font:700 13px Manrope}.safety-banner p{font-size:10px;color:#c3d4ca;margin:5px 0 0}.safety-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.safety-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px 22px 19px;min-height:192px}.safety-number{position:absolute;right:18px;top:17px;color:#d4dbd3;font:700 12px Manrope}.safety-icon{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:17px;margin-bottom:14px}.safety-icon.lilac{background:#f0edf8;color:#927eb2}.safety-icon.yellow{background:#f8f3df;color:#a58b45}.safety-icon.mint{background:#e9f3eb;color:#628d6b}.safety-icon.peach{background:#f9eee8;color:#b98164}.safety-card h3{font:700 13px Manrope;margin:0 0 7px}.safety-card p{font-size:10px;color:#87938b;line-height:1.7;margin:0;max-width:390px}.safety-tag{display:inline-block;margin-top:15px;font-size:7px;font-weight:800;letter-spacing:1px;color:#809487}.safety-disclaimer{background:#f1f3ed;border-radius:8px;padding:13px 15px;color:#88948b;font-size:9px;line-height:1.6;margin-top:15px}.safety-disclaimer strong{color:#627466}.site-footer{border-top:1px solid var(--line);margin-top:33px;padding-top:16px;display:flex;justify-content:space-between;font-size:8px;letter-spacing:1px;color:#a8b0a9}.modal-backdrop,.demo-modal{display:none;position:fixed;inset:0;background:rgba(22,39,31,.42);z-index:50;align-items:center;justify-content:center;padding:18px}.modal-backdrop.open,.demo-modal.open{display:flex}.modal{width:min(570px,100%);background:#fff;border-radius:15px;padding:25px;box-shadow:0 25px 80px rgba(12,30,20,.2);animation:pop .2s ease}@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.99)}to{opacity:1;transform:none}}.modal-header{display:flex;justify-content:space-between;margin-bottom:21px}.modal-header h2,.demo-card h2{font:700 22px Manrope,sans-serif;margin:7px 0 0;letter-spacing:-.6px}.modal-close{border:0;background:#f3f5f1;color:#65736a;width:29px;height:29px;border-radius:50%;font-size:20px;cursor:pointer;line-height:1}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:grid;gap:7px}.field.full{grid-column:1/-1}.field>span{font-size:9px;color:#65736a;font-weight:700}.field>span b{color:#b56e54}.field input,.field select,.field textarea{width:100%;border:1px solid #e3e8e1;border-radius:7px;background:#fcfdfa;padding:10px 11px;color:#39463e;font:10px "DM Sans",sans-serif;outline:0}.field input:focus,.field select:focus,.field textarea:focus{border-color:#88a98c;box-shadow:0 0 0 3px #edf4ed}.field textarea{resize:vertical}.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:21px}.cancel-button{border:1px solid #e2e7e0;background:#fff;color:#77847b;border-radius:7px;padding:10px 15px;font:700 10px "DM Sans",sans-serif;cursor:pointer}.toast{position:fixed;bottom:23px;left:50%;transform:translate(-50%,20px);background:#203d31;color:#fff;border-radius:8px;padding:11px 16px;font-size:10px;opacity:0;pointer-events:none;transition:.25s;z-index:80;box-shadow:var(--shadow)}.toast.show{opacity:1;transform:translate(-50%,0)}.demo-card{width:min(420px,100%);background:#fff;border-radius:15px;padding:28px;position:relative}.demo-card .modal-close{position:absolute;right:18px;top:18px}.demo-card h2{margin:13px 0}.demo-card p{font-size:11px;line-height:1.8;color:#7e8981}.demo-card p strong{color:#364a3d}.demo-label{border:1px solid #e5eae2;background:#f7f9f5;color:#8b988c;border-radius:6px;padding:10px;font-size:7px;letter-spacing:1px;line-height:1.6;margin:17px 0}.demo-card .primary-button{width:100%;justify-content:center}
+@media(max-width:1050px){.main-content{padding:0 30px 22px}.hero-art{width:250px}.content-grid{grid-template-columns:1fr 1fr}.table-head,.application-row{grid-template-columns:1.7fr .8fr .9fr 1fr 22px}}@media(max-width:800px){.sidebar{transform:translateX(-100%);transition:.25s;box-shadow:10px 0 30px rgba(20,40,30,.08)}.sidebar.open{transform:translateX(0)}.main-content{margin-left:0;width:100%;padding:0 22px 22px}.mobile-menu{display:block;border:0;background:transparent;color:#52645a;font-size:18px;cursor:pointer;margin-right:10px}.topbar{justify-content:flex-start;gap:8px;margin-bottom:30px}.top-actions{margin-left:auto}.hero-row{min-height:220px}.hero-art{width:210px;height:185px}.hero-row h1{font-size:38px}.stats-grid{gap:9px}.stat-card{padding:15px;min-height:130px}.content-grid{grid-template-columns:1fr}.prep-layout{grid-template-columns:1fr  .8fr}}@media(max-width:600px){.main-content{padding:0 15px 20px}.topbar{height:62px;margin-bottom:25px}.breadcrumb{font-size:9px;gap:6px}.today-pill{display:none}.hero-row{min-height:auto;margin-bottom:21px}.hero-art{display:none}.hero-row h1,.page-heading h1{font-size:36px}.hero-sub{font-size:11px}.stats-grid{grid-template-columns:1fr 1fr}.stat-card:first-child{grid-column:1/-1}.stat-card{min-height:116px}.content-grid{gap:12px}.panel{padding:17px}.progress-layout{gap:15px}.progress-ring{width:88px;height:88px;flex-basis:88px}.page-heading{align-items:flex-start;gap:13px;flex-direction:column}.page-heading .primary-button{align-self:stretch;justify-content:center}.page-heading h1{margin-top:11px}.filter-bar{flex-wrap:wrap}.search-box{max-width:none;flex-basis:100%}.filter-bar select{flex:1}.table-head{display:none}.application-row{grid-template-columns:1fr auto;gap:8px;padding:13px}.row-type,.row-date{display:none}.row-menu{grid-column:2;grid-row:1}.row-status{grid-column:1}.prep-layout{grid-template-columns:1fr}.check-category{display:none}.check-item{gap:9px}.safety-grid{grid-template-columns:1fr}.safety-card{min-height:0}.site-footer{gap:10px;line-height:1.6;flex-direction:column}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.modal{padding:20px}.tip-panel{padding:20px}}
+
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="Bước Đầu trang chủ">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>BƯỚC ĐẦU</strong><small>CAREER DESK</small></span>
+      </a>
+      <div class="sidebar-label">KHÔNG GIAN CỦA BẠN</div>
+      <nav class="side-nav" aria-label="Điều hướng chính">
+        <button class="nav-link active" data-view="overview"><span class="nav-icon">⌂</span><span>Tổng quan</span></button>
+        <button class="nav-link" data-view="applications"><span class="nav-icon">▤</span><span>Ứng tuyển</span><span class="nav-count" id="navCount">0</span></button>
+        <button class="nav-link" data-view="preparation"><span class="nav-icon">✳</span><span>Chuẩn bị</span></button>
+        <button class="nav-link" data-view="safety"><span class="nav-icon">◇</span><span>An toàn ứng tuyển</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="mini-card">
+          <div class="mini-card-icon">✦</div>
+          <strong>Mỗi bước nhỏ đều có ý nghĩa.</strong>
+          <p>Theo dõi hành trình, giữ nhịp tiến về công việc phù hợp.</p>
+        </div>
+        <div class="profile-row">
+          <div class="avatar">BD</div>
+          <div><strong>Góc phát triển</strong><small>Bản dùng thử cá nhân</small></div>
+          <span class="profile-dots">•••</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Mở menu">☰</button>
+        <div class="breadcrumb"><span>Không gian cá nhân</span><b>/</b><strong id="crumbCurrent">Tổng quan</strong></div>
+        <div class="top-actions">
+          <span class="today-pill"><span class="live-dot"></span> Kế hoạch của riêng bạn</span>
+          <button class="help-button" id="helpButton" aria-label="Thông tin dự án">?</button>
+        </div>
+      </header>
+
+      <section class="view active" id="view-overview">
+        <div class="hero-row">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER STARTS HERE</div>
+            <h1>Chào bạn,<br><em>đường đi đang mở ra.</em></h1>
+            <p class="hero-sub">Một góc nhỏ để bạn sắp xếp cơ hội, chuẩn bị tốt hơn và chủ động với bước tiếp theo trong sự nghiệp.</p>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div>
+            <div class="art-star star-one">✳</div><div class="art-star star-two">✦</div>
+            <div class="art-caption">TAKE<br/>THE FIRST<br/><b>STEP.</b></div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card stat-dark"><div class="stat-top"><span>Vị trí đang theo dõi</span><span class="stat-symbol">↗</span></div><strong id="statTotal">0</strong><small>Cơ hội trong danh sách của bạn</small><div class="stat-line"><i style="width:68%"></i></div></article>
+          <article class="stat-card"><div class="stat-top"><span>Đang chờ phản hồi</span><span class="stat-symbol soft">◷</span></div><strong id="statPending">0</strong><small>Hồ sơ đã gửi, đang chờ cập nhật</small><div class="stat-foot"><span class="tiny-dot amber"></span> Kiên nhẫn và tiếp tục chuẩn bị</div></article>
+          <article class="stat-card"><div class="stat-top"><span>Lịch phỏng vấn</span><span class="stat-symbol soft">✳</span></div><strong id="statInterview">0</strong><small>Buổi phỏng vấn sắp tới</small><div class="stat-foot"><span class="tiny-dot green"></span> Sẵn sàng cho cơ hội mới</div></article>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel progress-panel">
+            <div class="panel-heading"><div><div class="eyebrow small-eyebrow">YOUR PROGRESS</div><h2>Chuẩn bị từng chút một</h2></div><button class="text-button" data-goto="preparation">Xem checklist <span>↗</span></button></div>
+            <div class="progress-layout">
+              <div class="progress-ring" id="progressRing"><div><strong id="progressPercent">0%</strong><small>HOÀN THÀNH</small></div></div>
+              <div class="progress-copy"><strong id="progressTitle">Khởi đầu từ một việc nhỏ</strong><p id="progressDescription">Hoàn thành các mục chuẩn bị để tự tin hơn khi ứng tuyển.</p><div class="progress-meta"><span id="progressDone">0/6 mục</span><span class="progress-track"><i id="progressBar"></i></span></div></div>
+            </div>
+          </section>
+          <section class="panel quick-panel">
+            <div class="panel-heading"><div><div class="eyebrow small-eyebrow">QUICK ACTIONS</div><h2>Bắt đầu nhanh</h2></div><span class="sparkle">✦</span></div>
+            <button class="quick-action" id="quickAdd"><span class="quick-icon lavender">＋</span><span><strong>Thêm cơ hội mới</strong><small>Lưu lại vị trí bạn quan tâm</small></span><b>↗</b></button>
+            <button class="quick-action" data-goto="preparation"><span class="quick-icon mint">✓</span><span><strong>Kiểm tra mức độ sẵn sàng</strong><small>Hoàn thiện checklist cá nhân</small></span><b>↗</b></button>
+            <button class="quick-action" data-goto="safety"><span class="quick-icon peach">⌑</span><span><strong>Đọc lưu ý an toàn</strong><small>Nhận diện dấu hiệu tuyển dụng rủi ro</small></span><b>↗</b></button>
+          </section>
+        </div>
+
+        <section class="panel recent-panel">
+          <div class="panel-heading"><div><div class="eyebrow small-eyebrow">RECENT ACTIVITY</div><h2>Cơ hội gần đây</h2></div><button class="text-button" data-goto="applications">Mở danh sách <span>↗</span></button></div>
+          <div id="recentList" class="recent-list"><div class="empty-state compact"><span>＋</span><strong>Chưa có cơ hội nào</strong><p>Thêm vị trí đầu tiên để bắt đầu quản lý hành trình của bạn.</p></div></div>
+        </section>
+        <div class="footnote"><span>✳</span> Bước Đầu giúp bạn quản lý hành trình. Cơ hội phù hợp bắt đầu từ sự chuẩn bị chủ động.</div>
+      </section>
+
+      <section class="view" id="view-applications">
+        <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> APPLICATION TRACKER</div><h1>Quản lý <em>cơ hội.</em></h1><p>Theo dõi những vị trí bạn quan tâm, trạng thái hồ sơ và các bước tiếp theo.</p></div><button class="primary-button" id="addApplication"><span>＋</span> Thêm cơ hội</button></div>
+        <div class="filter-bar"><div class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Tìm theo vị trí hoặc công ty..." /></div><select id="statusFilter" aria-label="Lọc trạng thái"><option value="all">Tất cả trạng thái</option><option value="saved">Đang quan tâm</option><option value="applied">Đã ứng tuyển</option><option value="interview">Phỏng vấn</option><option value="closed">Đã kết thúc</option></select><span class="result-count" id="resultCount">0 cơ hội</span></div>
+        <div class="table-card"><div class="table-head"><span>VỊ TRÍ / ĐƠN VỊ</span><span>HÌNH THỨC</span><span>NGÀY CẬP NHẬT</span><span>TRẠNG THÁI</span><span></span></div><div id="applicationRows"><div class="empty-state"><span>▤</span><strong>Danh sách đang chờ bạn</strong><p>Thêm cơ hội đầu tiên để theo dõi tiến trình ứng tuyển tại đây.</p><button class="outline-button" id="emptyAdd">＋ Thêm cơ hội đầu tiên</button></div></div></div>
+        <div class="privacy-note"><span>◇</span> Dữ liệu bạn nhập được lưu trên trình duyệt của thiết bị này, không gửi lên máy chủ.</div>
+      </section>
+
+      <section class="view" id="view-preparation">
+        <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> GET READY</div><h1>Sẵn sàng cho <em>bước tiếp.</em></h1><p>Một checklist ngắn giúp bạn chuẩn bị hồ sơ và buổi phỏng vấn có hệ thống hơn.</p></div><div class="completion-chip"><strong id="prepPercent">0%</strong><span>hoàn thành</span></div></div>
+        <div class="prep-layout">
+          <div class="panel checklist-panel"><div class="panel-heading"><div><div class="eyebrow small-eyebrow">PERSONAL CHECKLIST</div><h2>Danh sách chuẩn bị</h2></div><span class="check-count" id="checkCount">0/6</span></div>
+            <div class="checklist" id="checklist">
+              <label class="check-item"><input type="checkbox" data-check="cv"><span class="custom-check"></span><span class="check-text"><strong>Rà soát CV cá nhân</strong><small>Thông tin liên hệ, học vấn, kỹ năng và trình bày.</small></span><span class="check-category">HỒ SƠ</span></label>
+              <label class="check-item"><input type="checkbox" data-check="profile"><span class="custom-check"></span><span class="check-text"><strong>Cập nhật hồ sơ trực tuyến</strong><small>Kiểm tra email, số điện thoại và hồ sơ nghề nghiệp.</small></span><span class="check-category">HỒ SƠ</span></label>
+              <label class="check-item"><input type="checkbox" data-check="research"><span class="custom-check"></span><span class="check-text"><strong>Tìm hiểu đơn vị ứng tuyển</strong><small>Sản phẩm, lĩnh vực hoạt động và kênh thông tin chính thức.</small></span><span class="check-category">NGHIÊN CỨU</span></label>
+              <label class="check-item"><input type="checkbox" data-check="description"><span class="custom-check"></span><span class="check-text"><strong>Đọc kỹ mô tả công việc</strong><small>Đối chiếu yêu cầu với năng lực và mong muốn cá nhân.</small></span><span class="check-category">NGHIÊN CỨU</span></label>
+              <label class="check-item"><input type="checkbox" data-check="interview"><span class="custom-check"></span><span class="check-text"><strong>Chuẩn bị câu trả lời phỏng vấn</strong><small>Luyện giới thiệu bản thân và ví dụ về kinh nghiệm.</small></span><span class="check-category">PHỎNG VẤN</span></label>
+              <label class="check-item"><input type="checkbox" data-check="questions"><span class="custom-check"></span><span class="check-text"><strong>Chuẩn bị câu hỏi cho nhà tuyển dụng</strong><small>Hỏi về công việc, người hướng dẫn và quy trình.</small></span><span class="check-category">PHỎNG VẤN</span></label>
+            </div>
+          </div>
+          <aside class="panel tip-panel"><div class="tip-icon">✳</div><div class="eyebrow small-eyebrow">A SMALL REMINDER</div><h2>Không cần hoàn hảo ngay từ đầu.</h2><p>Một CV rõ ràng, sự chuẩn bị nghiêm túc và thái độ cầu thị thường bắt đầu từ những việc rất nhỏ.</p><div class="tip-divider"></div><strong>Gợi ý luyện tập</strong><p class="tip-question">“Hãy kể về một lần bạn gặp khó khăn và cách bạn giải quyết vấn đề đó.”</p><button class="text-button" id="newQuestion">Đổi câu hỏi luyện tập ↻</button></aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-safety">
+        <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> APPLY WITH AWARENESS</div><h1>Ứng tuyển <em>an tâm hơn.</em></h1><p>Một số thói quen kiểm tra thông tin cơ bản trước khi chia sẻ dữ liệu hoặc nhận lời mời làm việc.</p></div><div class="safety-mark">◇</div></div>
+        <div class="safety-banner"><div class="safety-banner-icon">!</div><div><strong>Chậm một nhịp để kiểm tra.</strong><p>Đừng để áp lực phải có việc thật nhanh khiến bạn bỏ qua những dấu hiệu bất thường.</p></div></div>
+        <div class="safety-grid">
+          <article class="safety-card"><span class="safety-number">01</span><div class="safety-icon lilac">⌕</div><h3>Kiểm tra nguồn tuyển dụng</h3><p>Đối chiếu tin tuyển dụng với website, email tên miền hoặc kênh liên hệ chính thức của đơn vị.</p><span class="safety-tag">XÁC MINH THÔNG TIN</span></article>
+          <article class="safety-card"><span class="safety-number">02</span><div class="safety-icon yellow">₫</div><h3>Cảnh giác với yêu cầu nộp tiền</h3><p>Thận trọng khi bị yêu cầu chuyển tiền đặt cọc, phí giữ chỗ, phí nhận việc hoặc mua thiết bị từ một nguồn không rõ ràng.</p><span class="safety-tag">KIỂM TRA CHI PHÍ</span></article>
+          <article class="safety-card"><span class="safety-number">03</span><div class="safety-icon mint">⌑</div><h3>Bảo vệ dữ liệu cá nhân</h3><p>Không cung cấp mật khẩu, mã OTP hoặc thông tin tài khoản ngân hàng cho người tuyển dụng.</p><span class="safety-tag">BẢO MẬT CÁ NHÂN</span></article>
+          <article class="safety-card"><span class="safety-number">04</span><div class="safety-icon peach">▤</div><h3>Đọc kỹ thỏa thuận</h3><p>Làm rõ công việc, thời gian, mức lương, quyền lợi và các điều kiện trước khi xác nhận nhận việc.</p><span class="safety-tag">HIỂU RÕ ĐIỀU KIỆN</span></article>
+        </div>
+        <div class="safety-disclaimer"><strong>Lưu ý:</strong> Đây là nội dung tham khảo về thói quen an toàn khi tìm việc, không thay thế tư vấn pháp lý hoặc xác minh chính thức từ cơ quan có thẩm quyền.</div>
+      </section>
+
+      <footer class="site-footer"><span>© 2026 BƯỚC ĐẦU CAREER DESK</span><span>DESIGNED AS A PERSONAL CAREER ORGANIZER</span></footer>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="applicationModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header"><div><div class="eyebrow small-eyebrow">KEEP YOUR NEXT MOVE IN SIGHT</div><h2 id="modalTitle">Thêm cơ hội mới</h2></div><button class="modal-close" id="modalClose" aria-label="Đóng">×</button></div>
+      <form id="applicationForm">
+        <div class="form-grid"><label class="field full"><span>Vị trí ứng tuyển <b>*</b></span><input name="role" required maxlength="80" placeholder="Ví dụ: Thực tập sinh vận hành" /></label><label class="field"><span>Đơn vị / Công ty</span><input name="company" maxlength="80" placeholder="Tên đơn vị" /></label><label class="field"><span>Hình thức</span><select name="type"><option>Toàn thời gian</option><option>Bán thời gian</option><option>Thực tập</option><option>Freelance</option><option>Khác</option></select></label><label class="field"><span>Trạng thái</span><select name="status"><option value="saved">Đang quan tâm</option><option value="applied">Đã ứng tuyển</option><option value="interview">Phỏng vấn</option><option value="closed">Đã kết thúc</option></select></label><label class="field"><span>Ngày cập nhật</span><input type="date" name="date" /></label><label class="field full"><span>Ghi chú / Đường dẫn</span><textarea name="note" rows="3" maxlength="500" placeholder="Ghi chú về vị trí hoặc dán đường dẫn tin tuyển dụng..."></textarea></label></div>
+        <div class="modal-actions"><button type="button" class="cancel-button" id="cancelModal">Hủy</button><button type="submit" class="primary-button">Lưu cơ hội <span>↗</span></button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="demo-modal" id="infoModal" aria-hidden="true"><div class="demo-card"><button class="modal-close" id="infoClose">×</button><div class="eyebrow small-eyebrow">ABOUT THIS PROJECT</div><h2>Một không gian để bắt đầu.</h2><p><strong>Bước Đầu — Career Desk</strong> là prototype website mô phỏng công cụ quản lý hành trình tìm việc dành cho sinh viên và người mới đi làm.</p><p>Bản demo tập trung vào ba nhu cầu: theo dõi cơ hội, chuẩn bị hồ sơ và nhận biết một số rủi ro cơ bản khi ứng tuyển.</p><div class="demo-label">PROTOTYPE · DỮ LIỆU LƯU TRÊN TRÌNH DUYỆT · KHÔNG PHẢI NỀN TẢNG TUYỂN DỤNG</div><button class="primary-button" id="infoOkay">Đã hiểu</button></div></div>
+  <script>
+(() => {
+  const STORE_KEY = 'buocdau-career-desk-v1';
+  const CHECK_KEY = 'buocdau-career-checks-v1';
+  const statusLabels = { saved: 'Đang quan tâm', applied: 'Đã ứng tuyển', interview: 'Phỏng vấn', closed: 'Đã kết thúc' };
+  const statusClasses = { saved: 'status-saved', applied: 'status-applied', interview: 'status-interview', closed: 'status-closed' };
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+  let applications = readJSON(STORE_KEY, []);
+  let checks = readJSON(CHECK_KEY, {});
+  let toastTimer;
+
+  function readJSON(key, fallback) {
+    try { const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : fallback; }
+    catch { return fallback; }
+  }
+  function persist() { localStorage.setItem(STORE_KEY, JSON.stringify(applications)); }
+  function safeText(value) {
+    return String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+  function initials(value) {
+    return String(value || 'Cơ hội').trim().split(/\s+/).slice(0,2).map(x => x[0] || '').join('').toUpperCase();
+  }
+  function formatDate(value) {
+    if (!value) return 'Chưa cập nhật';
+    const d = new Date(`${value}T00:00:00`);
+    if (Number.isNaN(d.getTime())) return value;
+    return new Intl.DateTimeFormat('vi-VN').format(d);
+  }
+  function showToast(message) {
+    const toast = $('#toast'); toast.textContent = message; toast.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => toast.classList.remove('show'), 2500);
+  }
+  function switchView(name) {
+    $$('.view').forEach(v => v.classList.toggle('active', v.id === `view-${name}`));
+    $$('.nav-link').forEach(b => b.classList.toggle('active', b.dataset.view === name));
+    const labels = {overview:'Tổng quan',applications:'Ứng tuyển',preparation:'Chuẩn bị',safety:'An toàn ứng tuyển'};
+    $('#crumbCurrent').textContent = labels[name] || 'Tổng quan';
+    $('#sidebar').classList.remove('open');
+    window.scrollTo({top:0,behavior:'smooth'});
+    if (name === 'applications') renderApplications();
+  }
+  $$('.nav-link').forEach(b => b.addEventListener('click', () => switchView(b.dataset.view)));
+  $$('[data-goto]').forEach(b => b.addEventListener('click', () => switchView(b.dataset.goto)));
+  $('#mobileMenu').addEventListener('click', () => $('#sidebar').classList.toggle('open'));
+
+  const modal = $('#applicationModal');
+  function openModal() {
+    $('#applicationForm').reset();
+    $('#applicationForm [name="date"]').value = new Date().toISOString().slice(0,10);
+    modal.classList.add('open'); modal.setAttribute('aria-hidden','false');
+    setTimeout(() => $('#applicationForm [name="role"]').focus(), 50);
+  }
+  function closeModal() { modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); }
+  $('#addApplication').addEventListener('click', openModal);
+  $('#quickAdd').addEventListener('click', openModal);
+  $('#emptyAdd').addEventListener('click', openModal);
+  $('#modalClose').addEventListener('click', closeModal);
+  $('#cancelModal').addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal(); $('#infoModal').classList.remove('open'); } });
+
+  $('#applicationForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const role = String(data.get('role') || '').trim();
+    if (!role) return;
+    applications.unshift({ id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()), role, company: String(data.get('company') || '').trim(), type: data.get('type'), status: data.get('status'), date: data.get('date'), note: String(data.get('note') || '').trim() });
+    persist(); closeModal(); renderAll(); showToast('Đã lưu cơ hội vào danh sách của bạn.');
+  });
+
+  function renderRecent() {
+    const host = $('#recentList');
+    if (!applications.length) {
+      host.innerHTML = '<div class="empty-state compact"><span>＋</span><strong>Chưa có cơ hội nào</strong><p>Thêm vị trí đầu tiên để bắt đầu quản lý hành trình của bạn.</p></div>';
+      return;
+    }
+    host.innerHTML = applications.slice(0,3).map(a => `<div class="recent-item"><div class="company-avatar">${safeText(initials(a.company || a.role))}</div><div class="recent-info"><strong>${safeText(a.role)}</strong><small>${safeText(a.company || 'Chưa thêm đơn vị')} · ${safeText(a.type)}</small></div><span class="status-pill ${statusClasses[a.status]}">${statusLabels[a.status]}</span></div>`).join('');
+  }
+  function renderApplications() {
+    const term = $('#searchInput').value.trim().toLocaleLowerCase('vi');
+    const status = $('#statusFilter').value;
+    const filtered = applications.filter(a => {
+      const hay = `${a.role} ${a.company} ${a.type}`.toLocaleLowerCase('vi');
+      return (!term || hay.includes(term)) && (status === 'all' || a.status === status);
+    });
+    $('#resultCount').textContent = `${filtered.length} cơ hội`;
+    $('#navCount').textContent = applications.length;
+    const host = $('#applicationRows');
+    if (!filtered.length) {
+      host.innerHTML = `<div class="empty-state"><span>${applications.length ? '⌕' : '▤'}</span><strong>${applications.length ? 'Không tìm thấy kết quả phù hợp' : 'Danh sách đang chờ bạn'}</strong><p>${applications.length ? 'Thử thay đổi từ khóa hoặc bộ lọc trạng thái.' : 'Thêm cơ hội đầu tiên để theo dõi tiến trình ứng tuyển tại đây.'}</p>${applications.length ? '' : '<button class="outline-button" id="emptyAdd">＋ Thêm cơ hội đầu tiên</button>'}</div>`;
+      const emptyAdd = $('#emptyAdd'); if (emptyAdd) emptyAdd.addEventListener('click', openModal);
+      return;
+    }
+    host.innerHTML = filtered.map(a => `<div class="application-row"><div class="role-cell"><div class="company-avatar">${safeText(initials(a.company || a.role))}</div><div><strong>${safeText(a.role)}</strong><small>${safeText(a.company || 'Chưa thêm đơn vị')}</small></div></div><span class="row-type">${safeText(a.type)}</span><span class="row-date">${safeText(formatDate(a.date))}</span><span class="row-status"><span class="status-pill ${statusClasses[a.status]}">${statusLabels[a.status]}</span></span><button class="row-menu" data-delete="${safeText(a.id)}" aria-label="Xóa ${safeText(a.role)}">⋯</button></div>`).join('');
+    $$('[data-delete]',host).forEach(btn => btn.addEventListener('click', () => {
+      const item = applications.find(a => a.id === btn.dataset.delete);
+      if (!item) return;
+      if (confirm(`Xóa “${item.role}” khỏi danh sách?`)) { applications = applications.filter(a => a.id !== item.id); persist(); renderAll(); showToast('Đã xóa cơ hội.'); }
+    }));
+  }
+  $('#searchInput').addEventListener('input', renderApplications);
+  $('#statusFilter').addEventListener('change', renderApplications);
+
+  function renderChecks() {
+    const ids = ['cv','profile','research','description','interview','questions'];
+    const done = ids.filter(id => !!checks[id]).length;
+    const pct = Math.round(done / ids.length * 100);
+    $('#checklist').querySelectorAll('input[type="checkbox"]').forEach(input => {
+      input.checked = !!checks[input.dataset.check];
+      input.closest('.check-item').classList.toggle('done', input.checked);
+    });
+    $('#checkCount').textContent = `${done}/${ids.length}`;
+    $('#prepPercent').textContent = `${pct}%`;
+    $('#progressPercent').textContent = `${pct}%`;
+    $('#progressDone').textContent = `${done}/${ids.length} mục`;
+    $('#progressBar').style.width = `${pct}%`;
+    $('#progressRing').style.background = `conic-gradient(#8eaf80 ${pct*3.6}deg,#e8ede5 0deg)`;
+    $('#progressTitle').textContent = done === ids.length ? 'Bạn đã hoàn tất checklist!' : done ? 'Bạn đang tiến bộ từng bước' : 'Khởi đầu từ một việc nhỏ';
+    $('#progressDescription').textContent = done === ids.length ? 'Hãy duy trì sự chủ động và cập nhật checklist khi cần.' : 'Hoàn thành các mục chuẩn bị để tự tin hơn khi ứng tuyển.';
+  }
+  $('#checklist').addEventListener('change', e => {
+    if (!e.target.matches('input[type="checkbox"]')) return;
+    checks[e.target.dataset.check] = e.target.checked;
+    localStorage.setItem(CHECK_KEY, JSON.stringify(checks)); renderChecks();
+  });
+  const practiceQuestions = [
+    'Hãy kể về một lần bạn gặp khó khăn và cách bạn giải quyết vấn đề đó.',
+    'Điều gì khiến bạn quan tâm đến vị trí này và bạn mong đợi học hỏi điều gì?',
+    'Bạn thường sắp xếp công việc như thế nào khi có nhiều nhiệm vụ cùng lúc?',
+    'Hãy chia sẻ một lần bạn làm việc nhóm và đóng góp của bạn trong kết quả chung.',
+    'Bạn muốn cải thiện kỹ năng nào nhất trong thời gian tới? Vì sao?'
+  ];
+  let questionIndex = 0;
+  $('#newQuestion').addEventListener('click', () => {
+    questionIndex = (questionIndex + 1) % practiceQuestions.length;
+    $('.tip-question').textContent = `“${practiceQuestions[questionIndex]}”`;
+  });
+  function renderAll() {
+    $('#statTotal').textContent = applications.length;
+    $('#statPending').textContent = applications.filter(a => a.status === 'applied').length;
+    $('#statInterview').textContent = applications.filter(a => a.status === 'interview').length;
+    $('#navCount').textContent = applications.length;
+    renderRecent(); renderApplications(); renderChecks();
+  }
+  $('#helpButton').addEventListener('click', () => $('#infoModal').classList.add('open'));
+  $('#infoClose').addEventListener('click', () => $('#infoModal').classList.remove('open'));
+  $('#infoOkay').addEventListener('click', () => $('#infoModal').classList.remove('open'));
+  $('#infoModal').addEventListener('click', e => { if (e.target.id === 'infoModal') e.currentTarget.classList.remove('open'); });
+  renderAll();
+})();
+
+  </script>
+</body>
+</html>
